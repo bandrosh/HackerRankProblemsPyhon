@@ -6,4 +6,4 @@ def run():
 
 
 def swap_case(s: str):
-    return s
+    return ''.join([x.lower() if x.isupper() else x.upper() for x in list(s)])
